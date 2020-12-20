@@ -36,6 +36,7 @@ module.exports.handler = async function(event, context) {
             chance.integer({ min: 0, max: wordsStartingWith.length - 1 })
         ];
 
+
     return {
         version: event.version,
         session: event.session,
